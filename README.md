@@ -138,12 +138,12 @@ connect to the server.
 
 ## Run Simple Auto-Generated Queries Via Ignite Repository
 
-1. Create the `CountryRepository` class:
+1. Create the `com.gridgain.training.spring.CountryRepository` class:
 
     ```java
     @RepositoryConfig (cacheName = "Country")
     @Repository
-    public interface CountryRepository extends IgniteRepository<Country, String> {
+    public interface com.gridgain.training.spring.CountryRepository extends IgniteRepository<Country, String> {
     
     }
     ```
