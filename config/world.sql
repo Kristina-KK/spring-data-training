@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS Country;
 
+
 CREATE TABLE Country (
   Code CHAR(3) PRIMARY KEY,
   Name VARCHAR,
